@@ -129,6 +129,59 @@ temperaturas[contador]=temperatura;
 	
 	}
 	
+	public float getT(char dia) {
+		
+		
+		
+if(dia=='L') {
+			
+			contador=0;
+			
+		}
+		
+if(dia=='M') {
+			
+			contador=1;
+			
+		}
+
+if(dia=='X') {
+	
+	contador=2;
+	
+}
+
+
+
+if(dia=='J') {
+	
+	contador=3;
+	
+}
+
+if(dia=='V') {
+	
+	contador=4;
+	
+}
+
+
+
+if(dia=='S') {
+	
+	contador=5;
+	
+}
+
+
+if(dia=='D') {
+	
+	contador=6;
+	
+}
+
+return temperaturas[contador];
+	}
 	
 	
 	
